@@ -1,34 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# APP de cadastro de produtos
 
-## Getting Started
+## 💻 Sobre o projeto
+Esta aplicação foi desenvolvida como parte do teste técnico solicitado pela HVAR para o projeto Whirlpool. Trata-se de um sistema, com controle de acesso, de cadastro de produtos. O usuário pode ver, filtrar, pesquisar, cadastrar, editar, apagar ou favoritar os produtos.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🛠 Ferramentas utilizadas
+  <ul>
+    <li>
+      <a href='https://www.typescriptlang.org/'>Typescript</a>
+    </li>
+    <li>
+      <a href='https://pt-br.reactjs.org/'>React</a>
+    </li>
+    <li>
+      <a href='https://nextjs.org/'>NextJS</a>
+    </li>
+    <li>
+      <a href='https://styled-components.com/'>Styled Components</a>
+    </li>
+    <li>
+      <a href='https://formik.org/docs/overview'>Formik</a>
+    </li>
+    <li>
+      <a href='https://github.com/jquense/yup'>Yup</a>
+    </li>
+    <li>
+      <a href='https://react-icons.github.io/react-icons/'>React Icons</a>
+    </li>
+    <li>
+      <a href='https://github.com/typicode/json-server'>JSON Server</a>
+    </li>
+  </ul>
+  
+  ## 🚀 Executando o projeto
+  Para executar esta aplicação localmente é necessário que você tenha em sua máquina o Node com os gerenciadores de pacote NPM e/ou Yarn. Também será necessário a ferramenta de versionamento de códigos Git. 
+    
+  Com estas ferramentas instaladas você deve, no terminal, acessar a pasta de destino escolhida para este projeto e clonar este repositório para a sua máquina usando o comando abaixo:
+  
+  ```bash
+    git clone https://github.com/prmlimajr/hvar-whirlpool-tech-challenge-next.git
+  ```
+  
+  <p>Após terminar o processo de download do projeto, você deve acessar a pasta com o conteúdo baixado e executar o comando abaixo para instalar as dependências:</p>
+  
+  ```
+    npm install
+  ```
+  
+  ou se preferir:
+  
+  ```
+    yarn
+  ```
+  
+  Após a instalação de todos os pacotes, é possível rodar o projeto localmente através do comando:
+  
+  ```
+    npm run dev
+  ```
+  ou
+  ```
+    yarn dev
+  ```
+  
+  Uma mensagem será exibida no console indicando que o servidor está sendo executado, na porta 3000.
+  
+  <p>Será preciso também inicializar o servidor JSON Server que irá fornecer uma API falsa para testes no frontend. Para iniciar o servidor, no terminal digite:</p>
+  
+  ```
+    npm run server
+  ```
+  ou
+  ```
+    yarn server
+  ```
+  
+  <p>Com o servidor em execução você pode acessar <a href='http://localhost:3000'>http://localhost:3000</a> para iniciar a aplicação frontend.</p>
+    
+ ## 😯 Autor
+<a href="https://www.linkedin.com/in/prmlimajr/">Paulo Lima</a>
